@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    
+}
+
+.navbar {
+    background-color: #333333;
+    color: #cbcbcb;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    height: 44px;
+    align-items: center;
+}
+
+.nav-item a {
+    color: #cbcbcb;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    color: white;
+}
+
+.main {
+    height: 650px;
+    background-image: url(https://www.idgcdn.com.au/article/images/740x500/dimg/iphone_11_pro.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 85px;
+}
+
+.card-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-item {
+    width: 50%;
+    height: 450px;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-item p {
+    margin: 6px 0;
+}
+
+.card-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.card-item a:hover {
+    text-decoration: underline;
+}
+
+.card-item-1 {
+    background-color: #e7485a;
+}
+
+.card-item-2 {
+    background-color: #1e4f6f;
+}
+
+.card-item-3 {
+    background-color: #4caf50;
+}
+
+.card-item-4 {
+    background-color: #fbc02d;
+}
