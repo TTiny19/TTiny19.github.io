@@ -1,0 +1,124 @@
+* {
+    font-family: Arial;
+}
+
+
+.grid-box {
+    display: grid;
+    width: 800px;
+    height: 600px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 2px;
+    
+}
+
+.class-color-1 {
+    background-color: skyblue;
+}
+
+.class-color-2 {
+    background-color: purple;
+}
+
+.class-color-3 {
+    background-color: green;
+}
+
+.class-color-4 {
+    background-color: rgb(67, 159, 196);
+}
+
+.class-color-5 {
+    background-color: rgb(97, 8, 97);
+}
+
+.class-color-6 {
+    background-color: rgb(3, 97, 3);
+}
+
+.class-1 {
+    grid-column: 7 / 8;
+    grid-row: 1 / 2;
+}
+
+.class-2 {
+    grid-column: 8 / 9;
+    grid-row: 1 / 2;
+}
+
+.class-3 {
+    grid-column: 3 / 6;
+    grid-row: 2 / 3;
+}
+
+.class-4 {
+    grid-column: 6 / 7;
+    grid-row: 2 / 3;
+}
+
+.class-5 {
+    grid-column: 7 / 8;
+    grid-row: 2 / 3;
+}
+
+.class-6 {
+    grid-column: 8 / 9;
+    grid-row: 2 / 3;
+}
+
+.class-7 {
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+}
+
+.class-8 {
+    grid-column: 7 / 8;
+    grid-row: 3 / 4;
+}
+
+.class-9 {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+}
+
+.class-10 {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.class-11 {
+    grid-column: 5 / 8;
+    grid-row: 4 / 5;
+}
+
+.class-12 {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+}
+
+.class-13 {
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+}
+
+.class-14 {
+    grid-column: 5 / 6;
+    grid-row: 5 / 6;
+}
+
+.class-15 {
+    grid-column: 6 / 7;
+    grid-row: 5 / 6;
+}
+.class-16 {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+}
+
+.class-17 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+
